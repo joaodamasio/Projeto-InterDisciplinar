@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Mercado Local</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="registerContainer" class="container">
+        <h1>Cadastro - Mercado Local</h1>
+        <form id="registerForm">
+            <label for="fullname">Nome Completo:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirmPassword">Repetir Senha:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="successMessage" class="hidden">
+            <p>Cadastro concluído com sucesso!</p>
+            <a href="index.html" id="showLogin">Voltar para a tela inicial </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
