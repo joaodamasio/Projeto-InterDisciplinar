@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telageral.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <title>Tela Geral</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <input type="text" placeholder="Pesquisar produto" class="search-input">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+    </nav>
+    
+    <div class="sidebar" id="sidebar">
+        <a href="#" class="closebtn" id="closeSidebar">&times;</a>
+        <a href="#">Fornecedores</a>
+        <a href="#">Adicionar Produtos</a>
+    </div>
+    
+    <div id="geral" class="principal">
+        <div id="conteudo-pagina" class="secundario">
+            <div class="containers">
+                <h1>Produtos</h1>
+            </div>
+            <div class="product-container">
+                <div class="card" id="container-1">
+                    <a id="qtd-produtos-totais"><h5>Estoque</h5></a>
+                </div>
+                <div class="card" id="container-2">
+                    <a id="qtd-produtos-abaixo-estoque"><h5>Produtos abaixo do estoque</h5></a>
+                </div>
+                <div class="card" id="container-3">
+                    <a id="qtd-produtos-mais-vendidos"><h5>Mais vendidos</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

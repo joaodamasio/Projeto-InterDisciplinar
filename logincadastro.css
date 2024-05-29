@@ -2,7 +2,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
     background-color: #242424;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -52,7 +52,7 @@ input {
 
 button {
     font-family: 'JetBrains Mono', monospace;
-    padding: 12px;
+    padding: 0px;
     background-color: #d3d3d383;
     color: #000000;
     border: none;
@@ -68,3 +68,16 @@ button:hover {
 .hidden {
     display: none;
 }
+
+.card{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 19px 4px 15px rgba(0, 0, 0, 0.925);
+    transition: transform 0.5s ease;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
